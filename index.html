@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <main>
+      <div id="outputs"></div>
+      <section class="calculator">
+        <!-- <section id="outputs"> -->
+         <section id="container">
+           <button class="function" onclick="reset(clear)">AC</button>
+           <button class="function" onclick="buildSum('+')">+/-</button>
+           <button class="function" onclick="buildSum('')">%</button>
+           <button class="sign" onclick="buildSum('/')">/</button>
+           <button onclick="buildSum('7')">7</button>
+           <button onclick="buildSum('8')">8</button>
+           <button onclick="buildSum('9')">9</button>
+           <button class="sign" onclick="buildSum('*')">X</button>
+           <button onclick="buildSum('4')">4</button>
+           <button onclick="buildSum('5')">5</button>
+           <button onclick="buildSum('6')">6</button>
+           <button class="sign" onclick="buildSum('-')">-</button>
+           <button onclick="buildSum('1')">1</button>
+           <button onclick="buildSum('2')">2</button>
+           <button onclick="buildSum('3')">3</button>
+           <button class="sign" onclick="buildSum('+')">+</button>
+           <section class="empty"></section>
+           <button onclick="buildSum('0')">0</button>
+           <button onclick="buildSum('.')">.</button>
+           <button class="sign" onclick="calculate()">=</button>
+         </section>
+       </section>
+        <!-- </section> -->
+   </main>
+
+      <script src="./code.js"></script>
+
+</body>
+</html>
