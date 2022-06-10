@@ -19,7 +19,8 @@
   .sign {
     background-color: gold;
   }
-  #output {
-    background-color: white;
-    height: 80px;
+  #outputs{
+    height: 1rem;
+    width: 2rem;
+    padding: 2rem;
   }
